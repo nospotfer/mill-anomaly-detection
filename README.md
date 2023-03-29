@@ -23,8 +23,8 @@
 1. Clone the repo
 
     ```bash
-    git git@github.com:nospotfer/vertical-mill-project.git
-    cd vertical-mill-project
+    git git@github.com:nospotfer/mill-anomaly-detection.git
+    cd mill-anomaly-detection
     ```
 
 2. Install dependencies using [pip](https://pip.pypa.io/en/stable/installing/). The following command
@@ -155,13 +155,6 @@ The project structure tree is shown below:
 - Integrate `make test` with your CI pipeline.
 - Capture `stdout` when deployed.
 
-## Explorative results
-
-`SHORT SUMMARY AND LINK TO REPORT`
-
-## Modelling results
-
-`SHORT SUMMARY AND LINK TO REPORT`
 
 > copyright by `Gabriel Oliveira-Barra`
 > main developer `Gabriel Oliveira-Barra` (`gabriel@oliveira-barra.com`)

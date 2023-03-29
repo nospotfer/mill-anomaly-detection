@@ -19,7 +19,7 @@ serve_deps = [
 extras = {"test": test_deps, "serve": serve_deps}
 
 setup(
-    name="vertical-mill-project",
+    name="mill-anomaly-detection",
     version="0.0.1",
     url="insus.ch",
     author="Gabriel Oliveira-Barra",
