@@ -147,12 +147,21 @@ The project structure tree is shown below:
 └── tests               # Unit tests
 ```
 
+## Reports and Results
+
+Just run `make run-pipeline`. It will reproduce the results as following:
+* run ETL from Raw data
+* store transformed data in `transformed`folder
+* train model and save it serialized
+* store predictions in `predictions`folder as a .csv file.
+* store graphs in the `reports` folder
+* Serve the model on localhost (in case you want to try the API with more custom data) 
+
 ## Best practices
 
 - Make sure that `docker-compose up test` runs properly.  
-- In need for a Notebook? Use the docker image: `docker-compose up jupyter`.
-- Commit often, perfect later.
-- Integrate `make test` with your CI pipeline.
+- In case you need to run anything in jupyter, use the docker image: `docker-compose up jupyter`.
+- Integrate `make test` with the CI pipeline.
 - Capture `stdout` when deployed.
 
 
